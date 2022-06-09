@@ -73,7 +73,7 @@ class App extends StatelessWidget {
                     ),
                     duration: 1000,
                     splashTransition: SplashTransition.fadeTransition,
-                    nextScreen: OnboardingScreen(),
+                    nextScreen: route(),
                   ),
               "first": (context) => AnimatedSplashScreen(
                     backgroundColor: COLOR_2,
